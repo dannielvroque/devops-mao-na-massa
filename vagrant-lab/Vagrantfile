@@ -24,6 +24,4 @@ Vagrant.configure("2") do |config|
     privileged: true
 
   config.vm.synced_folder "C:/Users/danni/iCloudDrive/projetos/devops-mao-na-massa/vagrant-lab/html", "/vagrant/html"
-
-
 end
